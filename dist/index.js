@@ -38,7 +38,6 @@ module.exports = React.createClass({
     return React.createElement("img", {
       "className": "react-gravatar",
       "src": src,
-      "alt": this.props.email,
       "height": this.props.size,
       "width": this.props.size
     });

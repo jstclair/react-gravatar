@@ -34,5 +34,5 @@ module.exports = React.createClass
     src = base + md5.digest_s(@props.email) + "?" + query
 
     return(
-      <img className="react-gravatar" src={src} alt={@props.email} height={@props.size} width={@props.size} />
+      <img className="react-gravatar" src={src} height={@props.size} width={@props.size} />
     )
